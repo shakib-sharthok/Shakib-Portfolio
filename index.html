@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakib's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/23be81c17b.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Web Designer & Developer</p>
+                <h1>Hello, I'm <span style="color: red;">Shakib Ahemed,</span></br> a 20-year-old aspiring web designer.</h1>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+
+    <!--------ABOUT------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/personalone.jpg" alt="Shakib">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Shakib</h1>
+                    <br>
+                        I'm Shakib Ahmed, a 20-year-old aspiring web designer.
+                         From a young age, my fascination with the digital realm has driven me towards a career in web design.
+                          As I traverse the dynamic landscape of technology, my passion for creating visually appealing 
+                          and user-friendly websites has become not just a career choice but a calling. 
+                        I believe in the transformative power of well-designed websites to shape online experiences and leave a lasting impact.
+                        
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span> <br> Design & Development</li>
+                            <li><span>I can make:</span> <br> WooCommerce Websites <br>Medical Websites<br>Portfolio Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>6 Month Internship</span> <br> Design & Development</li>
+                            <li><span>Currently Learning:</span> <br> Theme Development <br>JS<br>PHP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span> <br> Kushtia Zilla School</li>
+                            <li><span>College</span> <br> Jhenaidah College</li>
+                            <li><span>University</span> <br> Jhenaidah University</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------Jquery Plugin----------->
+    
+    <!------ABOUT END HERE------>
+
+    <!-----SERVICES---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    <h2>Mordern Website</h2>
+                    <p>
+                        In my pursuit of excellence, I find inspiration in the stories of successful IT entrepreneurs who started with a vision and a passion. 
+                        Their journeys remind me that every challenge is an opportunity to learn and grow. I am not just building websites;
+                         I am constructing a pathway to a future where technology converges with creativity to bring about positive change.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                    <h2>Classic Website</h2>
+                    <p>
+                        In my pursuit of excellence, I find inspiration in the stories of successful IT entrepreneurs who started with a vision and a passion. 
+                        Their journeys remind me that every challenge is an opportunity to learn and grow. I am not just building websites;
+                         I am constructing a pathway to a future where technology converges with creativity to bring about positive change.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>3D Website</h2>
+                    <p>
+                        In my pursuit of excellence, I find inspiration in the stories of successful IT entrepreneurs who started with a vision and a passion. 
+                        Their journeys remind me that every challenge is an opportunity to learn and grow. I am not just building websites;
+                         I am constructing a pathway to a future where technology converges with creativity to bring about positive change.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------Portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/personal3.jpg">
+                    <div class="layer">
+                        <h3>Want To Visit?</h3>
+                        <p>If you want to visit this website, please click the button below</p>
+                        <a href="#">Vist Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/personal4.jpg">
+                    <div class="layer">
+                        <h3>Want To Visit?</h3>
+                        <p>If you want to visit this website, please click the button below</p>
+                        <a href="#">Vist Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/personal5.jpg">
+                    <div class="layer">
+                        <h3>Want To Visit?</h3>
+                        <p>If you want to visit this website, please click the button below</p>
+                        <a href="#">Vist Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Now</h1>
+                    <p><i class="fa-solid fa-phone"></i>shakib.aitel@gmail.com</p>
+                    <p><i class="fa-solid fa-envelope"></i>01624046163</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shakib.sharthok/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/shakib.sharthok/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/shakib.sharthok/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!----JS---->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
